@@ -16,7 +16,7 @@ export default class Home extends React.Component {
   }
 
 getnews(){
-  fetch(`https://newsapi.org/v2/top-headlines?country=in&pageSize=80&apiKey=1328346b24414ac9adf0e81e510de4b4`)
+  fetch(`https://newsapi.org/v2/top-headlines?country=in&pageSize=80&apiKey=API KEY`)
     .then(res=>res.json())
     .then(data=>{
       this.setState({
